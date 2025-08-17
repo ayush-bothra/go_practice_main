@@ -1,8 +1,19 @@
 package main
 import (
-	// "github.com/ayush-bothra/go_practice_main/pkg/dtypeutils"
-	"github.com/ayush-bothra/go_practice_main/pkg/cntrlflowutils"
+	"github.com/ayush-bothra/go_practice_main/pkg/dtypeutils"
+	// "github.com/ayush-bothra/go_practice_main/pkg/cntrlflowutils"
 )
+
+/*
+*************************************************************************
+This is a for practice file only, u can un-comment any part of the code 
+(as long as its not causing any issues to the go compiler), run it using
+go run <file_path> and see the results, each of the files have some level
+of comments explaining details about the workings of code in go, these 
+can be referred when required.
+each of the functionalities can be checked using CTRL+CLICK
+*************************************************************************
+*/
 
 func main() {
 	/* 
@@ -39,6 +50,7 @@ func main() {
 
 	// dtypeutils.WorkOnArrays()
 	// dtypeutils.WorkOnMaps()
-	cntrlflowutils.WorkOnForLoops()
+	// cntrlflowutils.WorkOnForLoops()
+	dtypeutils.WorkOnStrings()
 }
 
