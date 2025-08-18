@@ -2,6 +2,7 @@ package main
 import (
 	"github.com/ayush-bothra/go_practice_main/pkg/dtypeutils"
 	// "github.com/ayush-bothra/go_practice_main/pkg/cntrlflowutils"
+	// "github.com/ayush-bothra/go_practice_main/pkg/uddtypeutils"
 )
 
 /*
@@ -51,6 +52,8 @@ func main() {
 	// dtypeutils.WorkOnArrays()
 	// dtypeutils.WorkOnMaps()
 	// cntrlflowutils.WorkOnForLoops()
-	dtypeutils.WorkOnStrings()
+	// dtypeutils.WorkOnStrings()
+	// uddtypeutils.WorkOnStructs()
+	dtypeutils.WorkOnPointers()
 }
 
